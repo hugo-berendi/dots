@@ -1,0 +1,15 @@
+# mocha
+text-color = #cdd6f4
+prompt-color = #f38ba8
+selection-color = #f9e2af
+background-color = #1e1e2e
+
+# font
+font = "Hack Nerd Font"
+font-size = 17
+width = 600
+height = 300
+outline-width = 0
+border-width = 3
+border-color = #cba6f7
+corner-radius = 10

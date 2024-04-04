@@ -1,0 +1,52 @@
+* {
+    font-family: "Hack Nerd Font";
+    font-size: 12px;
+    color: rgb(205, 214, 244);
+}
+
+window {
+    background: linear-gradient(rgb(30, 30, 46), rgb(30, 30, 46)) padding-box,
+                linear-gradient(135deg, rgb(203, 166, 247), rgb(245, 194, 231)) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+/* Outer bar container, takes all the window width/height */
+#outer-box {
+	margin: 0px;
+    padding: 10px;
+}
+
+/* Inner bar container, surrounds buttons */
+#inner-box {
+	background-color: rgb(30, 30, 46);
+	border-radius: 10px;
+	border-style: none;
+	border-width: 1px;
+	border-color: rgb(203, 166, 247);
+	padding: 5px;
+	margin: 5px;
+}
+
+button, image {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+image {
+    font-size: 5;
+}
+
+button {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+button:hover {
+	background-color: rgb(49, 50, 68);
+}

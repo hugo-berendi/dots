@@ -1,0 +1,22 @@
+# ~/.config/kitty/kitty.conf
+
+include rose-pine-moon.conf
+
+background_opacity 0.85
+
+font_family      Recursive Mono Linear 
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_size 12.0
+
+tab_bar_edge bottom
+tab_bar_style powerline
+tab_powerline_style angled
+
+
+# BEGIN_KITTY_THEME
+# Kanagawa_dragon
+include current-theme.conf
+# END_KITTY_THEME

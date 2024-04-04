@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Lock",
+    "exec": "/home/hugob/.config/hypr/scripts/lock.sh",
+    "icon": "/home/hugob/.config/nwg-bar/icons/lock.png"
+  },
+  {
+    "label": "Logout",
+    "exec": "swaymsg exit",
+    "icon": "/home/hugob/.config/nwg-bar/icons/logout.png"
+  },
+  {
+    "label": "Reboot",
+    "exec": "systemctl reboot",
+    "icon": "/home/hugob/.config/nwg-bar/icons/reboot.png"
+  },
+  {
+    "label": "Shutdown",
+    "exec": "systemctl -i poweroff",
+    "icon": "/home/hugob/.config/nwg-bar/icons/shutdown.png"
+  }
+]
